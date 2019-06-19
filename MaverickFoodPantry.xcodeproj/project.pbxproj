@@ -44,6 +44,9 @@
 		D64514CD22BA849D0081BD7E = {
 			isa = PBXGroup;
 			children = (
+				D64514EB22BA93DB0081BD7E /* login.storyboard */,
+				D64514EE22BA93F70081BD7E /* tabBar.storyboard */,
+				D64514F022BA94180081BD7E /* aboutPage.storyboard */,
 				D64514D822BA849D0081BD7E /* MaverickFoodPantry */,
 				D64514D722BA849D0081BD7E /* Products */,
 			);
@@ -62,9 +65,6 @@
 			children = (
 				D64514D922BA849D0081BD7E /* AppDelegate.swift */,
 				D64514DB22BA849D0081BD7E /* ViewController.swift */,
-				D64514EB22BA93DB0081BD7E /* login.storyboard */,
-				D64514EE22BA93F70081BD7E /* tabBar.storyboard */,
-				D64514F022BA94180081BD7E /* aboutPage.storyboard */,
 				D64514DD22BA849D0081BD7E /* Main.storyboard */,
 				D64514E022BA849E0081BD7E /* Assets.xcassets */,
 				D64514E222BA849E0081BD7E /* LaunchScreen.storyboard */,
