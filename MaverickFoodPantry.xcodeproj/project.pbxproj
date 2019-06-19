@@ -12,9 +12,6 @@
 		D64514DF22BA849D0081BD7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64514DD22BA849D0081BD7E /* Main.storyboard */; };
 		D64514E122BA849E0081BD7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64514E022BA849E0081BD7E /* Assets.xcassets */; };
 		D64514E422BA849F0081BD7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64514E222BA849E0081BD7E /* LaunchScreen.storyboard */; };
-		D64514ED22BA93DB0081BD7E /* login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64514EB22BA93DB0081BD7E /* login.storyboard */; };
-		D64514EF22BA93F70081BD7E /* tabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64514EE22BA93F70081BD7E /* tabBar.storyboard */; };
-		D64514F222BA94180081BD7E /* aboutPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64514F022BA94180081BD7E /* aboutPage.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +22,6 @@
 		D64514E022BA849E0081BD7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D64514E322BA849E0081BD7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D64514E522BA849F0081BD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D64514EC22BA93DB0081BD7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MaverickFoodPantry/Base.lproj/login.storyboard; sourceTree = "<group>"; };
-		D64514EE22BA93F70081BD7E /* tabBar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = tabBar.storyboard; sourceTree = "<group>"; };
-		D64514F122BA94180081BD7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MaverickFoodPantry/Base.lproj/aboutPage.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +38,6 @@
 		D64514CD22BA849D0081BD7E = {
 			isa = PBXGroup;
 			children = (
-				D64514EB22BA93DB0081BD7E /* login.storyboard */,
-				D64514EE22BA93F70081BD7E /* tabBar.storyboard */,
-				D64514F022BA94180081BD7E /* aboutPage.storyboard */,
 				D64514D822BA849D0081BD7E /* MaverickFoodPantry */,
 				D64514D722BA849D0081BD7E /* Products */,
 			);
@@ -131,12 +122,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D64514EF22BA93F70081BD7E /* tabBar.storyboard in Resources */,
-				D64514ED22BA93DB0081BD7E /* login.storyboard in Resources */,
 				D64514E422BA849F0081BD7E /* LaunchScreen.storyboard in Resources */,
 				D64514E122BA849E0081BD7E /* Assets.xcassets in Resources */,
 				D64514DF22BA849D0081BD7E /* Main.storyboard in Resources */,
-				D64514F222BA94180081BD7E /* aboutPage.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,22 +157,6 @@
 				D64514E322BA849E0081BD7E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		D64514EB22BA93DB0081BD7E /* login.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D64514EC22BA93DB0081BD7E /* Base */,
-			);
-			name = login.storyboard;
-			sourceTree = "<group>";
-		};
-		D64514F022BA94180081BD7E /* aboutPage.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D64514F122BA94180081BD7E /* Base */,
-			);
-			name = aboutPage.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
