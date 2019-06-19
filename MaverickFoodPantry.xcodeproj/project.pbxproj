@@ -12,6 +12,8 @@
 		D64514DF22BA849D0081BD7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64514DD22BA849D0081BD7E /* Main.storyboard */; };
 		D64514E122BA849E0081BD7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64514E022BA849E0081BD7E /* Assets.xcassets */; };
 		D64514E422BA849F0081BD7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64514E222BA849E0081BD7E /* LaunchScreen.storyboard */; };
+		D64514F622BA98400081BD7E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64514F522BA98400081BD7E /* Login.storyboard */; };
+		D64514F822BA98800081BD7E /* Tab Bar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64514F722BA98800081BD7E /* Tab Bar.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D64514E022BA849E0081BD7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D64514E322BA849E0081BD7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D64514E522BA849F0081BD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D64514F522BA98400081BD7E /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = MaverickFoodPantry/MaverickFoodPantry/Login.storyboard; sourceTree = "<group>"; };
+		D64514F722BA98800081BD7E /* Tab Bar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Tab Bar.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		D64514CD22BA849D0081BD7E = {
 			isa = PBXGroup;
 			children = (
+				D64514F522BA98400081BD7E /* Login.storyboard */,
+				D64514F722BA98800081BD7E /* Tab Bar.storyboard */,
 				D64514D822BA849D0081BD7E /* MaverickFoodPantry */,
 				D64514D722BA849D0081BD7E /* Products */,
 			);
@@ -122,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D64514F822BA98800081BD7E /* Tab Bar.storyboard in Resources */,
+				D64514F622BA98400081BD7E /* Login.storyboard in Resources */,
 				D64514E422BA849F0081BD7E /* LaunchScreen.storyboard in Resources */,
 				D64514E122BA849E0081BD7E /* Assets.xcassets in Resources */,
 				D64514DF22BA849D0081BD7E /* Main.storyboard in Resources */,
